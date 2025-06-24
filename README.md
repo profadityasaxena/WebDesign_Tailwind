@@ -78,6 +78,27 @@ Below are examples of how to use Tailwind classes:
   Responsive Text Size
 </div>
 ```
+| Category           | Explanation                                                                  | Sample Variants                                   | Syntax Structure                  |
+|--------------------|-------------------------------------------------------------------------------|----------------------------------------------------|-----------------------------------|
+| **Layout**         | Controls the layout mode of an element                                        | `block`, `inline`, `flex`, `grid`, `hidden`       | `display-type`                    |
+| **Flexbox & Grid** | Defines flex/grid behavior and alignment inside containers                    | `flex`, `flex-row`, `items-center`, `gap-4`       | `flex-{dir}`, `items-{pos}`       |
+| **Box Alignment**  | Horizontal and vertical alignment within container                            | `justify-start`, `items-center`, `place-content-end` | `justify-{pos}`, `items-{pos}` |
+| **Spacing**        | Margin and padding in 0.25rem increments                                      | `m-4`, `mt-2`, `p-6`, `px-8`, `space-x-2`          | `{m|p}{t|r|b|l|x|y}-{size}`       |
+| **Sizing**         | Width, height, min/max constraints                                             | `w-full`, `h-16`, `max-w-xs`, `min-h-screen`       | `w-{val}`, `h-{val}`              |
+| **Typography**     | Font size, style, alignment, and decoration                                   | `text-lg`, `font-bold`, `tracking-wide`, `text-left` | `text-{size}`, `font-{weight}` |
+| **Background**     | Background color, image, position, repeat, and size                           | `bg-blue-500`, `bg-cover`, `bg-center`             | `bg-{color|position|repeat}`     |
+| **Border**         | Border width, color, style, radius                                             | `border`, `border-4`, `rounded-lg`, `border-dashed` | `border-{side}-{width|color}`   |
+| **Effects**        | Shadows, opacity, blend modes                                                 | `shadow-md`, `opacity-75`, `mix-blend-multiply`    | `shadow-{size}`, `opacity-{val}` |
+| **Transitions**    | Transition speed and timing function                                           | `transition`, `duration-300`, `ease-in-out`        | `duration-{ms}`, `ease-{type}`   |
+| **Transforms**     | Translate, scale, rotate, skew                                                 | `scale-95`, `rotate-45`, `translate-x-4`           | `scale-{val}`, `rotate-{deg}`    |
+| **Interactivity**  | Control user interaction behavior                                              | `cursor-pointer`, `select-none`, `pointer-events-none` | `cursor-{type}`, `select-{val}` |
+| **Filters**        | Image filters and backdrop manipulations                                       | `filter`, `blur-sm`, `grayscale`, `backdrop-blur`  | `filter`, `blur-{size}`          |
+| **Responsive**     | Apply styles conditionally based on screen width                              | `sm:text-xl`, `lg:bg-red-500`, `xl:flex-row`       | `{breakpoint}:{utility}`         |
+| **State Variants** | Trigger styles on events like hover, focus, active                            | `hover:bg-blue-700`, `focus:ring`, `active:scale-95` | `{state}:{utility}`             |
+| **Dark Mode**      | Enable alternate styles in dark mode                                          | `dark:bg-gray-800`, `dark:text-white`              | `dark:{utility}`                 |
+| **Animations**     | Animate CSS transitions                                                       | `animate-spin`, `animate-bounce`                   | `animate-{name}`                 |
+| **Accessibility**  | Utility for better accessibility                                               | `sr-only`, `not-sr-only`, `aria-checked:underline` | `aria-{attr}:{utility}`          |
+
 
 ---
 
